@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="96dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:stretchColumns="0,1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvEdu"
+            android:layout_margin="8dp"
+            android:drawableTop="@drawable/edu_square"
+            android:gravity="center"
+            android:text="@string/main_menu_course"/>
+
+        <TextView
+            android:id="@+id/tvMap"
+            android:layout_margin="8dp"
+            android:drawableTop="@drawable/map_square"
+            android:gravity="center"
+            android:text="@string/main_menu_maps"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNew"
+            android:layout_margin="8dp"
+            android:drawableTop="@drawable/news_square"
+            android:gravity="center"
+            android:text="@string/main_menu_news"/>
+
+        <TextView
+            android:id="@+id/tvSocial"
+            android:layout_margin="8dp"
+            android:drawableTop="@drawable/social_square"
+            android:gravity="center"
+            android:text="@string/main_menu_social"/>
+
+    </TableRow>
+
+</TableLayout>
