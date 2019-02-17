@@ -10,7 +10,7 @@
     android:layout_marginRight="8dp"
     android:stretchColumns="0,1"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
+    tools:context=".activity.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <TableRow
@@ -21,14 +21,14 @@
         <TextView
             android:id="@+id/tvEdu"
             android:layout_margin="8dp"
-            android:drawableTop="@drawable/edu_square"
+            android:drawableTop="@drawable/course_icon"
             android:gravity="center"
             android:text="@string/main_menu_course"/>
 
         <TextView
             android:id="@+id/tvMap"
             android:layout_margin="8dp"
-            android:drawableTop="@drawable/map_square"
+            android:drawableTop="@drawable/maps_icon"
             android:gravity="center"
             android:text="@string/main_menu_maps"/>
 
@@ -42,14 +42,14 @@
         <TextView
             android:id="@+id/tvNew"
             android:layout_margin="8dp"
-            android:drawableTop="@drawable/news_square"
+            android:drawableTop="@drawable/news_icon"
             android:gravity="center"
             android:text="@string/main_menu_news"/>
 
         <TextView
             android:id="@+id/tvSocial"
             android:layout_margin="8dp"
-            android:drawableTop="@drawable/social_square"
+            android:drawableTop="@drawable/social_icon"
             android:gravity="center"
             android:text="@string/main_menu_social"/>
 
