@@ -29,5 +29,6 @@
     <string name="title_activity_feedback">Feedback</string>
     <string name="title_activity_help">Help</string>
     <string name="title_activity_maps">MapActivity</string>
+    <string name="btn_action_search">Search</string>
 
 </resources>

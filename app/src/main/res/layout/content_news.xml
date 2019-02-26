@@ -8,4 +8,52 @@
     tools:context=".activity.NewsActivity"
     tools:showIn="@layout/activity_news">
 
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:id="@+id/frameLayout"
+            android:background="@android:color/transparent">
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:id="@+id/progressBar"
+                android:layout_marginTop="-3dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent"
+                android:progressDrawable="@drawable/custom_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progress="20"/>
+
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lvList">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </ScrollView>
+        <!--<WebView-->
+            <!--android:id="@+id/webView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--</WebView>-->
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
